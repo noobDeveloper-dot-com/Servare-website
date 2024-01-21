@@ -1,0 +1,27 @@
+{
+  "name": "automated-workflow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "gsap": "^3.12.3",
+    "mixpanel-browser": "^2.48.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "> 0.2%",
+    "maintained node versions",
+    "fully supports es6-module"
+  ]
+}
